@@ -3,6 +3,8 @@ import ReactInfiniteCalendar from 'react-infinite-calendar';
 
 const test: React.SFC = () => (
     <ReactInfiniteCalendar
+        component={new React.Component({})}
+        interpolateSelection={() => {}}
         selected={new Date()}
         width={500}
         height={500}
